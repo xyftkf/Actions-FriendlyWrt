@@ -12,6 +12,17 @@ CONFIG_PACKAGE_luci-app-diskman=y
 CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs=y
 CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk=y
 CONFIG_PACKAGE_smartmontools=y
+# 自定义
+CONFIG_KERNEL_EXT4_FS_POSIX_ACL=y
+CONFIG_KERNEL_EXT4_FS_SECURITY=y
+# 包
+CONFIG_PACKAGE_luci-app-openclash=y
+# 驱动
+CONFIG_PACKAGE_kmod-mt76x0u=y
+CONFIG_PACKAGE_kmod-mt76x2u=y
+CONFIG_PACKAGE_kmod-r8125=y
+CONFIG_PACKAGE_kmod-rtw88=y
+CONFIG_PACKAGE_kmod-rtl8821cu=y
 EOL
 # }}
 
